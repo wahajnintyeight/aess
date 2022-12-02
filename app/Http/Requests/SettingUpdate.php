@@ -33,7 +33,7 @@ class SettingUpdate extends FormRequest
     public function attributes()
     {
         return  [
-            'system_name' => 'School Name',
+            'system_name' => 'AESS',
             'system_email' => 'School Email',
             'current_session' => 'Current Session',
         ];
