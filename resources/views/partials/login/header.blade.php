@@ -1,7 +1,7 @@
 <!-- Main navbar -->
 <div class="navbar navbar-expand-md navbar-dark">
     <div class="mt-2 mr-5">
-        <a href="{{ route('dashboard') }}" class="d-inline-block">
+        <a href="{{ route('landing') }}" class="d-inline-block">
             <h4 class="text-bold text-white">AESS</h4>
         </a>
     </div>
@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="navbar-mobile">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-                <a href="{{ route('home') }}" class="navbar-nav-link">
+                <a href="{{ route('landing') }}" class="navbar-nav-link">
                     <i class="icon-home"></i>
                     <span class="d-md-none ml-2">Home</span>
                 </a>

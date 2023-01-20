@@ -13,6 +13,10 @@ class HomeController extends Controller
         $this->user = $user;
     }
 
+    public function viewLanding()
+    {
+        return view('aess-layouts.home');
+    }
 
     public function index()
     {
@@ -37,8 +41,8 @@ class HomeController extends Controller
 
     public function dashboard()
     {
-        $d=[];
-        if(Qs::userIsTeamSAT()){
+        $d = [];
+        if (Qs::userIsTeamSAT()) {
             $d['users'] = $this->user->getAll();
         }
 
